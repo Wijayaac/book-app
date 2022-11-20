@@ -29,3 +29,43 @@ header {
     display: flex;
     gap: 20px;
 }
+
+.necklace {
+    .wrapper {
+        form {
+            display: flex;
+            align-items: flex-end;
+            gap: 20px;
+            margin-block: 40px;
+        }
+
+        label {
+            display: block;
+        }
+
+        input {
+            background-color: transparent;
+            border: 1px solid $orange;
+            outline: none;
+            padding: 12px;
+        }
+
+        button {
+            padding: 12px 24px;
+            background-color: $orange;
+            color: $white;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            transition: $transition-default;
+            text-transform: uppercase;
+            font-weight: 700;
+            height: 100%;
+
+            &:hover {
+                background-color: $teal;
+            }
+        }
+    }
+
+}
