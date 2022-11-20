@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "The Lost Key",
+      "isbn": 12382728921
+    },
+    {
+      "id": 2,
+      "name": "Moby Dick",
+      "isbn": 12382728921
+    },
+    {
+      "id": 3,
+      "name": "War and Peace",
+      "isbn": 12382728921
+    }
+  ]
+}

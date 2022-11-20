@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Requirements
+
+json server [documentation](https://www.npmjs.com/package/json-server) to run the json database.
+
+### Step for running this app
+
+`npm run database`
+
+and then continue with running below script.
+
 ## Available Scripts
 
 In the project directory, you can run:
