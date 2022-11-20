@@ -1,0 +1,26 @@
+@use '/src/scss/utils/variables' as *;
+
+.button {
+    padding: 6px 12px;
+    background-color: $teal;
+    border: none;
+    outline: none;
+    color: $white;
+    cursor: pointer;
+    transition: $transition-default;
+    text-transform: uppercase;
+    font-size: 12px;
+
+    &.disabled {
+        opacity: 0.8;
+        cursor: not-allowed;
+
+        &:hover {
+            background-color: $teal;
+        }
+    }
+
+    &:hover {
+        background-color: $orange;
+    }
+}

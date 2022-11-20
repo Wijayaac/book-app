@@ -1,6 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 
+import style from "./SearchBook.module.scss";
+
 const SearchBooks = ({ handleChange }) => {
   const { register, handleSubmit } = useForm();
 
@@ -10,7 +12,7 @@ const SearchBooks = ({ handleChange }) => {
   };
 
   return (
-    <div className='search-book'>
+    <div className={style.search}>
       <form aria-label='formSearch' onSubmit={handleSubmit(onSubmit)}>
         <input
           type='text'

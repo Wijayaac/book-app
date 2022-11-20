@@ -2,7 +2,7 @@
 @import './utils/reboot';
 
 .container {
-    max-width: 1140px;
+    max-width: 920px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -23,4 +23,9 @@ header {
 
 .page-wrap {
     margin-top: 60px;
+}
+
+.pagination {
+    display: flex;
+    gap: 20px;
 }

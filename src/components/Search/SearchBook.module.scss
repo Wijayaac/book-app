@@ -1,0 +1,39 @@
+@use '/src/scss/utils/variables' as *;
+
+.search {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding-top: 40px;
+
+    form {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid $black;
+        width: 90%;
+        padding: 12px 24px;
+    }
+
+    button {
+        padding: 12px 24px;
+        background-color: $orange;
+        color: $white;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        transition: $transition-default;
+        text-transform: uppercase;
+        font-weight: 700;
+
+        &:hover {
+            background-color: $teal;
+        }
+    }
+}

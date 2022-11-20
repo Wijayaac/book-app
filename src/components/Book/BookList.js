@@ -2,6 +2,7 @@ import React from "react";
 
 import BookRow from "./BookRow";
 import style from "./BookList.module.scss";
+
 const BookList = (props) => {
   const { books } = props;
   return (
